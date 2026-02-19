@@ -1,0 +1,17 @@
+const aprendiendo = function(tecnologia, tecnologia2) {
+     console.log(`Aprendiendo ${tecnologia} y ${tecnologia2}`);
+ }
+aprendiendo('Javascript', 'Node.js');
+
+
+
+
+const aprendiendo2 = (tecnologia, tecnologia2) => `Aprendiendo ${tecnologia} y ${tecnologia2}`;
+
+// Llama a la función y muestra el valor retornado
+// Imprime: Aprendiendo Javacript
+console.log(aprendiendo2('Python', 'Javascript'));
+
+
+
+
